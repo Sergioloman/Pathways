@@ -1,10 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom"
-
+import NavBar from "../components/NavBar/NavBar";
 
 const Home = () => {
     return (
         <div>
+            <div>
+                <NavBar/>
+            </div>
             <div classname="title-hero">
                 <h1>Pathways</h1>
                 <p>this is a description of the app</p>              
