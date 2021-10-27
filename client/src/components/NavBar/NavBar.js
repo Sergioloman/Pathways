@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 let NavBar = () => {
-    const tabs = [ 'home', 'portal', 'writer', 'reader']
+    const tabs = ['portal', 'writer', 'reader']
 
     return(
         <nav>

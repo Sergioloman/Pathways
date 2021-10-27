@@ -1,17 +1,12 @@
 import React from "react";
 import {Link} from "react-router-dom"
-import NavBar from "../components/NavBar/NavBar";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
     return (
         <div>
-            <div>
-                <NavBar/>
-            </div>
-            <div classname="title-hero">
-                <h1>Pathways</h1>
-                <p>this is a description of the app</p>              
-            </div>
+            <Header/>
             <div classname = "profile-select">
                 <div>
                     <h2>Create a new Path</h2>
@@ -25,9 +20,8 @@ const Home = () => {
                     <button classname="btn">Get Started!</button>
                     </Link>
                 </div>
-
-
             </div>
+            <Footer/>
         </div>
     )
 }
