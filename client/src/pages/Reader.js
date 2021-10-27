@@ -5,9 +5,17 @@ const Reader = () => {
     return(
         <div>
             <div>
-
-        </div>
+                <l1>Reader Portal</l1>
             </div>
-            <l1>Reader Portal</l1>
+            <div>
+                <p>search bar</p>
+            </div>
+            <div>
+                <p>Name of book in progress</p>
+                <button>read</button>
+            </div>
+        </div>
     )
 }
+
+export default Reader

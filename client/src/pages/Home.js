@@ -12,13 +12,13 @@ const Home = () => {
             <div classname = "profile-select">
                 <div>
                     <h2>Create a new Path</h2>
-                    <Link>
+                    <Link to={'/writer'}>
                     <button classname="btn">Get Started!</button>
                     </Link>
                 </div>
                 <div>
                     <h2>Find a new adventure</h2>
-                    <Link to={'/'}>
+                    <Link to={'/reader'}>
                     <button classname="btn">Get Started!</button>
                     </Link>
                 </div>
